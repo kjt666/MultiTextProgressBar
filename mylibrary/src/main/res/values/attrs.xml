@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiTextProgressBar">
+        <attr name="reach_color" format="color" />
+        <attr name="unreach_color" format="color" />
+        <attr name="progressbar_height" format="dimension" />
+        <attr name="progress_text" format="string" />
+        <attr name="text_size" format="dimension" />
+        <attr name="reach_text" format="string" />
+        <attr name="unreach_text" format="string" />
+        <attr name="reach_unreach_text_color" format="color" />
+        <attr name="left_text" format="string"/>
+        <attr name="progress_text_color" format="color"/>
+        <attr name="left_text_color" format="color"/>
+    </declare-styleable>
+</resources>

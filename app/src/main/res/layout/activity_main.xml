@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:scrollbars="none"
+    android:paddingRight="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/chair_man_reprot_form_ll">
+
+            <TextView
+                style="@style/chair_man_report_form_ll_title"
+                android:text="销售套数" />
+
+            <TextView
+                style="@style/chair_man_report_form_horiz_ll_content"
+                android:text="200000套" />
+
+            <com.wowo.kjt.mylibrary.MultiTextProgressBar
+                style="@style/chair_man_report_form_my_progressbar"
+                android:progress="78"
+                app:left_text="一手房售"
+                app:progress_text="200000万元"
+                app:reach_color="#C0ADFB" />
+
+            <com.wowo.kjt.mylibrary.MultiTextProgressBar
+                style="@style/chair_man_report_form_my_progressbar"
+                android:progress="67"
+                app:left_text="二手房售"
+                app:progress_text="200000万元"
+                app:reach_color="#C0ADFB" />
+
+            <com.wowo.kjt.mylibrary.MultiTextProgressBar
+                style="@style/chair_man_report_form_my_progressbar"
+                android:progress="35"
+                app:left_text="二手房租"
+                app:progress_text="200000万元"
+                app:reach_color="#C0ADFB" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/chair_man_reprot_form_ll"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                style="@style/chair_man_report_form_ll_title"
+                android:text="已收佣金/应收佣金" />
+
+            <com.wowo.kjt.mylibrary.MultiTextProgressBar
+                style="@style/chair_man_report_form_my_progressbar_2"
+                android:progress="87"
+                app:left_text="一手房售"
+                app:progress_text="200000万元"
+                app:reach_color="#9af"
+                app:reach_text="已收佣金"
+                app:unreach_text="应收佣金:2000000000" />
+
+            <com.wowo.kjt.mylibrary.MultiTextProgressBar
+                style="@style/chair_man_report_form_my_progressbar_2"
+                android:progress="56"
+                app:left_text="二手房售"
+                app:progress_text="200000万元"
+                app:reach_color="#9af"
+                app:reach_text="已收佣金"
+                app:reach_unreach_text_color="#B3B3B3"
+                app:unreach_text="应收佣金:2000000000" />
+
+            <com.wowo.kjt.mylibrary.MultiTextProgressBar
+                style="@style/chair_man_report_form_my_progressbar_2"
+                android:progress="50"
+                app:left_text="二手房租"
+                app:progress_text="200000万元"
+                app:reach_color="#9af"
+                app:reach_text="已收佣金"
+                app:reach_unreach_text_color="#B3B3B3"
+                app:unreach_text="应收佣金:2000000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/chair_man_reprot_form_ll"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                style="@style/chair_man_report_form_ll_title"
+                android:text="独家套数" />
+
+            <TextView
+                style="@style/chair_man_report_form_horiz_ll_content"
+                android:text="200000" />
+
+            <com.wowo.kjt.mylibrary.MultiTextProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progress="60"
+                app:progress_text="200000"
+                app:progressbar_height="20dp"
+                app:reach_color="#f99"
+                app:reach_text="成交套数"
+                app:reach_unreach_text_color="#B3B3B3"
+                app:unreach_text="库存:2000000套" />
+
+            <View
+                style="@style/gray_line"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                style="@style/chair_man_report_form_ll_title"
+                android:text="业绩完成门店/业绩未完成门店" />
+
+
+            <com.wowo.kjt.mylibrary.MultiTextProgressBar
+                style="@style/chair_man_report_form_my_progressbar_2"
+                android:progress="70"
+                app:progress_text="1000个"
+                app:reach_color="#faf"
+                app:reach_text="完成门店"
+                app:reach_unreach_text_color="#B3B3B3"
+                app:unreach_text="未完成门店2000个" />
+
+            <View
+                style="@style/gray_line"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                style="@style/chair_man_report_form_ll_title"
+                android:text="业绩达标门店/业绩未达标门店" />
+
+
+            <com.wowo.kjt.mylibrary.MultiTextProgressBar
+                style="@style/chair_man_report_form_my_progressbar_2"
+                android:progress="70"
+                app:progress_text="1000个"
+                app:reach_color="#C0ADFB"
+                app:reach_text="完成门店"
+                app:reach_unreach_text_color="#B3B3B3"
+                app:unreach_text="未完成门店2000个" />
+
+            <View
+                style="@style/gray_line"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                style="@style/chair_man_report_form_ll_title"
+                android:text="业绩完成人数/业绩未完成人数" />
+
+
+            <com.wowo.kjt.mylibrary.MultiTextProgressBar
+                style="@style/chair_man_report_form_my_progressbar_2"
+                android:progress="30"
+                app:progress_text="1000人"
+                app:reach_color="#C0ADFB"
+                app:reach_text="完成人数"
+                app:reach_unreach_text_color="#B3B3B3"
+                app:unreach_text="未完成人数20000人" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="chair_man_reprot_form_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/coner_border</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">16dp</item>
+    </style>
+
+    <style name="chair_man_report_form_ll_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@mipmap/title_icon</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="chair_man_report_form_horiz_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="chair_man_report_form_horiz_ll_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#999</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="chair_man_report_form_horiz_ll_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">#666</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="chair_man_report_form_my_progressbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="progressbar_height">20dp</item>
+    </style>
+
+    <style name="chair_man_report_form_my_progressbar_2" parent="chair_man_report_form_my_progressbar">
+        <item name="reach_unreach_text_color">#B3B3B3</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="gray_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.7dp</item>
+        <item name="android:background">#f2f2f2</item>
+
+    </style>
+
+    <style name="vertical_gray_line">
+        <item name="android:layout_width">0.4dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#f2f2f2</item>
+    </style>
+</resources>
