@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="10dp"
-    android:scrollbars="none"
     android:paddingRight="10dp"
+    android:scrollbars="none"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -101,11 +101,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:progress="60"
+                app:left_text="左标题"
+                app:left_text_color="#999"
                 app:progress_text="200000"
+                app:progress_text_color="#fff"
                 app:progressbar_height="20dp"
                 app:reach_color="#f99"
                 app:reach_text="成交套数"
                 app:reach_unreach_text_color="#B3B3B3"
+                app:text_size="14sp"
+                app:unreach_color="#f2f2f2"
                 app:unreach_text="库存:2000000套" />
 
             <View
