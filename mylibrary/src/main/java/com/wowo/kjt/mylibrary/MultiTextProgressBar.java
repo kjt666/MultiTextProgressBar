@@ -185,6 +185,7 @@ public class MultiTextProgressBar extends ProgressBar {
         Bitmap bitmap = Bitmap.createBitmap(getMeasuredWidth() - (int) mLeftTextWidth, mProgressbarHeight, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bitmap);
         mPaint.setColor(mUnReachColor);
+        mPaint.setStrokeCap(Paint.Cap.ROUND);
         //因为线帽是线段两头的样式，是多出来的一部分，如果不设置线帽从0开始就可以，线帽长度为线的高度的一半。
         canvas.drawLine(mProgressbarHeight / 2, mProgressbarHeight / 2, mRealWidth - mProgressbarHeight / 2, mProgressbarHeight / 2, mPaint);
         canvas.drawRect(new RectF(0, 0, mProgressbarHeight / 2, mProgressbarHeight), mPaint);
