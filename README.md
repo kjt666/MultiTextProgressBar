@@ -23,7 +23,7 @@ allprojects {
 
 ```Java
 dependencies {
-	        implementation 'com.github.kjt666:MultiTextProgressBar:v1.0'
+	        implementation 'com.github.kjt666:MultiTextProgressBar:v1.1'
 	}
 ```
 演示
